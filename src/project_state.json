@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Project to publish a site that includes product listings; user requested adding a product (VIVO X300 PRO) with a specified price tag (54999).",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-add-a-new-product-entry-to-the-local-products-dataset-for-vivo-x300-pro-with-a-price-tag-of-54999-so-it-appears-in-the-products-catalog-and-is-searchable-filterable-like-existing-items",
+      "title": "Add a new product entry to the local products dataset for \"VIVO X300 PRO\" with a price tag of \"54999\" so it appears in the Products catalog (and is searchable/filterable like existing items).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Add product listing: VIVO X300 PRO with price tag 54999",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Add VIVO X300 PRO product listing with price 54999",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

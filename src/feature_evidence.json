@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-a-new-product-entry-to-the-local-products-dataset-for-vivo-x300-pro-with-a-price-tag-of-54999-so-it-appears-in-the-products-catalog-and-is-searchable-filterable-like-existing-items",
+      "featureTitle": "Add a new product entry to the local products dataset for \"VIVO X300 PRO\" with a price tag of \"54999\" so it appears in the Products catalog (and is searchable/filterable like existing items).",
+      "files": [
+        "frontend/src/data/products.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

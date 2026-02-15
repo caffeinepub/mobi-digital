@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component with simple hash-based routing between Home, Products, About, and Contact pages, managing navigation state and category filtering.",
+  "frontend/src/components/SiteHeader.tsx": "Responsive header component with logo, brand name, and navigation menu supporting both desktop and mobile layouts with active page highlighting.",
+  "frontend/src/components/SiteFooter.tsx": "Footer component with brand information, quick links, social media icons, and required caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/Layout.tsx": "Simple layout wrapper component providing consistent container spacing and padding for page content.",
+  "frontend/src/components/CategoryCard.tsx": "Reusable card component displaying product category information with icon, title, description, and navigation action to filtered products page.",
+  "frontend/src/components/ProductCard.tsx": "Product display card showing product image placeholder, name, category badge, description, and price with hover effects.",
+  "frontend/src/pages/HomePage.tsx": "Landing page featuring hero section with brand imagery, feature highlights, and grid of product category cards linking to products page.",
+  "frontend/src/pages/ProductsPage.tsx": "Products catalog page with search and category filtering, displaying product grid from local dataset with responsive layout.",
+  "frontend/src/pages/AboutPage.tsx": "About page describing mobi digital's mission, core values, and product focus areas with structured card-based layout.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with validated contact form (name, email, message), success state handling, and contact information display cards.",
+  "frontend/src/data/products.ts": "Local product dataset containing 13 sample products across multiple categories including the newly added VIVO X300 PRO smartphone with names, descriptions, and prices.",
+  "frontend/src/lib/validation.ts": "Client-side validation utility functions for required field and email format validation used in contact form.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for future React Query hooks to interact with backend (currently empty as backend has no functionality).",
+  "frontend/src/index.css": "Global styles with custom OKLCH color system featuring graphite/charcoal base, electric cyan primary, and warm amber accents for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color tokens, custom shadows including glow effects, and animation utilities matching the design system."
+}

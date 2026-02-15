@@ -1,0 +1,40 @@
+{
+  "kind": "build_request",
+  "title": "Add VIVO X300 PRO product listing with price 54999",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Add a new product entry to the local products dataset for \"VIVO X300 PRO\" with a price tag of \"54999\" so it appears in the Products catalog (and is searchable/filterable like existing items).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "VIVO X300 PRO AND PRICE TAG 54999"
+        ]
+      },
+      "acceptanceCriteria": [
+        "`frontend/src/data/products.ts` includes a new `Product` with `name: 'VIVO X300 PRO'` and `price: '54999'`.",
+        "The new product has a unique numeric `id` not used by existing items.",
+        "The new product renders on the Products page grid and can be found via the search input by typing \"VIVO\" or \"X300\".",
+        "No backend changes are required for the product to appear."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit files under `frontend/src/components/ui` (read-only UI components).",
+    "Do not edit any paths listed in `frontend.immutablePaths` in SYSTEM_CONTEXT.",
+    "Keep backend as a single Motoko actor in `backend/main.mo`; do not introduce additional backend services."
+  ],
+  "nonGoals": [
+    "Adding Internet Identity or user-specific product management for this item.",
+    "Integrating an external database or third-party product API.",
+    "Adding checkout, payments, or inventory management."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

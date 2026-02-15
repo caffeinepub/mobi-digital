@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add VIVO X300 PRO to Products catalog dataset",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Add a new local product dataset entry for \"VIVO X300 PRO\" priced at \"54999\" so it appears and is searchable/filterable in the Products catalog.",
+      "acceptanceCriteria": [
+        "`frontend/src/data/products.ts` includes a new `Product` with `name: 'VIVO X300 PRO'` and `price: '54999'`.",
+        "The new product has a unique numeric `id` not used by existing items.",
+        "The new product renders on the Products page grid and can be found via the search input by typing \"VIVO\" or \"X300\".",
+        "No backend changes are required for the product to appear."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/data/products.ts",
+          "operation": "modify",
+          "description": "Append a new `Product` object to the exported `products` array with a unique numeric `id` (next available after existing items), `name: 'VIVO X300 PRO'`, a reasonable `category` consistent with catalog filtering, a short `description`, and `price: '54999'` (as a string) so it is included in the Products page search/filter results."
+        }
+      ]
+    }
+  ]
+}
